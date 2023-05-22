@@ -976,7 +976,8 @@ $(function () {
     output+=randomItems[i][1];
     output+=" - ";
     output+=randomItems[i][0];
-    output+="</li>"
+    output+="<a href='http://www.spotify.com'><i class='ti ti-brand-spotify text-success'></i></a>";
+    output+="</li>";
   }
   output += "</ol>"
 
